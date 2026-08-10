@@ -1,6 +1,6 @@
 # Transceiver KiwiSDR Bridge User Guide
 
-Version: 1.1.16  
+Version: 1.1.17  
 Author: John Burns, GW3JVB
 
 ## What It Does
@@ -10,7 +10,7 @@ Transceiver KiwiSDR Bridge links a supported radio or SDR program to a KiwiSDR b
 ## Supported Radio Options
 
 - Icom IC-7300 using CI-V serial
-- Thetis TCI using network TCI
+- TCI Protocol using network TCI, including Thetis, Expert Electronics, Apache Labs ANAN, and Hermes Lite 2 where TCI is available
 - Yaesu FT-920(R) experimental using serial CAT
 - Yaesu FTDX10 experimental using Yaesu CAT over the Enhanced USB COM port
 - Hamlib using the bundled Hamlib support
@@ -111,9 +111,9 @@ The KiwiSDR page should follow the connected radio.
 - CI-V address: `94`
 - Serial port: select the COM port shown in Windows Device Manager
 
-### Thetis TCI
+### TCI Protocol
 
-- TCI host: IP address or host name of the PC running Thetis
+- TCI host: IP address or host name of the computer, radio, or SDR application providing TCI
 - TCI port: usually `50001`
 
 ### KiwiSDR
