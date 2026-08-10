@@ -1,6 +1,6 @@
 # Transceiver KiwiSDR Bridge User Guide
 
-Version: 1.1.19  
+Version: 1.1.20  
 Author: John Burns, GW3JVB
 
 ## What It Does
@@ -124,6 +124,14 @@ Example:
 Host: g3sdr.com
 Port: 8077
 ```
+
+You may also paste a full KiwiSDR URL, for example:
+
+```text
+http://radio.satelliteboy.com:8073/
+```
+
+The app will store the host and port separately.
 
 Previously used KiwiSDR hosts can be selected from the host dropdown.
 
