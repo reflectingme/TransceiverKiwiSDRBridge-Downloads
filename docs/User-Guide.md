@@ -1,6 +1,6 @@
 # Transceiver KiwiSDR Bridge User Guide
 
-Version: 1.1.17  
+Version: 1.1.18  
 Author: John Burns, GW3JVB
 
 ## What It Does
